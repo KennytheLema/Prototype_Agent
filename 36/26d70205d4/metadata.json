@@ -1,0 +1,43 @@
+{
+  "cli_version": "0.5.2",
+  "checkpoint_id": "3626d70205d4",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 0,
+  "files_touched": [
+    ".claude-plugin/plugin.json",
+    "agents/career-guide.md",
+    "agents/community-connector.md",
+    "agents/ethics-evaluator.md",
+    "agents/venture-scout.md",
+    "docs/career-agent-overview.md",
+    "docs/user-data-schema.md",
+    "hooks/hooks.json",
+    "skills/application-tracker/SKILL.md",
+    "skills/community-find/SKILL.md",
+    "skills/connect-request/SKILL.md",
+    "skills/cover-letter/SKILL.md",
+    "skills/evaluate-company/SKILL.md",
+    "skills/find-collaborators/SKILL.md",
+    "skills/interview-prep/SKILL.md",
+    "skills/job-search/SKILL.md",
+    "skills/profile-setup/SKILL.md",
+    "skills/side-project-scope/SKILL.md",
+    "skills/tailor-resume/SKILL.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/36/26d70205d4/0/metadata.json",
+      "transcript": "/36/26d70205d4/0/full.jsonl",
+      "content_hash": "/36/26d70205d4/0/content_hash.txt",
+      "prompt": "/36/26d70205d4/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 107,
+    "cache_creation_tokens": 415234,
+    "cache_read_tokens": 5032964,
+    "output_tokens": 47548,
+    "api_call_count": 75
+  }
+}

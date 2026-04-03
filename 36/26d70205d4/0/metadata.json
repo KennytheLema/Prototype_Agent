@@ -1,0 +1,48 @@
+{
+  "cli_version": "0.5.2",
+  "checkpoint_id": "3626d70205d4",
+  "session_id": "cc5092e5-6482-40ca-951f-3feede316e2d",
+  "strategy": "manual-commit",
+  "created_at": "2026-04-03T01:11:40.730563Z",
+  "branch": "main",
+  "checkpoints_count": 0,
+  "files_touched": [
+    ".claude-plugin/plugin.json",
+    "hooks/hooks.json",
+    "skills/profile-setup/SKILL.md",
+    "skills/job-search/SKILL.md",
+    "skills/evaluate-company/SKILL.md",
+    "skills/tailor-resume/SKILL.md",
+    "skills/cover-letter/SKILL.md",
+    "skills/interview-prep/SKILL.md",
+    "skills/community-find/SKILL.md",
+    "skills/connect-request/SKILL.md",
+    "skills/side-project-scope/SKILL.md",
+    "skills/find-collaborators/SKILL.md",
+    "skills/application-tracker/SKILL.md",
+    "agents/career-guide.md",
+    "agents/ethics-evaluator.md",
+    "agents/community-connector.md",
+    "agents/venture-scout.md",
+    "docs/career-agent-overview.md",
+    "docs/user-data-schema.md"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "3c51b038fc8c",
+  "token_usage": {
+    "input_tokens": 107,
+    "cache_creation_tokens": 415234,
+    "cache_read_tokens": 5032964,
+    "output_tokens": 47548,
+    "api_call_count": 75
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-04-03T01:11:40.111091Z",
+    "agent_lines": 1278,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 1278,
+    "agent_percentage": 100
+  }
+}
