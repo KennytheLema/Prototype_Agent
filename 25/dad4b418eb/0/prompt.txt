@@ -1,0 +1,9 @@
+when does my session resset
+
+---
+
+acting as a world class prompt engeenir, create a comprehenisve plan for creating Claude skills, a set of workflow steps and interaction examples of how these skills woudl be used, a set example of data about users that would be in an actual system for an agent like this, and example user interaction sequences , both positive / beneficial and not helpful. create that for the follwoing AI agent we want to prototype : Ethical Career Agent: An ethical and meaningful careers AI agent that facilitates people in searching for jobs, applying for jobs, joining communities of practice, connecting with others for side-projects (or even starting new companies or non-profits) during job search.
+
+---
+
+make it soo all of these agents are one and keep the skills
