@@ -1,0 +1,14 @@
+{
+  "name": "Prototype_Agent",
+  "owner": {
+    "name": "KennytheLema",
+    "url": "https://github.com/KennytheLema"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Superpowers for Claude Code — skills, agents, and hooks that turbocharge your workflow",
+      "source": "./"
+    }
+  ]
+}

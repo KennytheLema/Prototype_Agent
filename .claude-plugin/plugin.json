@@ -1,0 +1,14 @@
+{
+  "name": "superpowers",
+  "version": "1.0.0",
+  "description": "Superpowers for Claude Code — skills, agents, and hooks that turbocharge your workflow",
+  "author": {
+    "name": "KennytheLema",
+    "url": "https://github.com/KennytheLema"
+  },
+  "repository": "https://github.com/KennytheLema/Prototype_Agent",
+  "keywords": ["productivity", "git", "review", "debug", "agents", "superpowers"],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json"
+}
