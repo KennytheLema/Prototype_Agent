@@ -1,5 +1,5 @@
 {
-  "description": "Superpowers hooks — logging, session summaries, and bash command tracking",
+  "description": "Superpowers + Ethical Career Agent hooks — logging, session summaries, bash tracking, and career tracker reminders",
   "hooks": {
     "PreToolUse": [
       {
@@ -20,6 +20,16 @@
             "type": "command",
             "command": "mkdir -p \"${CLAUDE_PLUGIN_DATA}\" && echo \"[$(date '+%Y-%m-%d %H:%M:%S')] Session started\" >> \"${CLAUDE_PLUGIN_DATA}/sessions.log\" 2>/dev/null || true",
             "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -f ~/.career/tracker.json ]; then python3 -c \"import json,os; from datetime import date; data=json.load(open(os.path.expanduser('~/.career/tracker.json'))); apps=data.get('applications',[]); overdue=[a for a in apps if a.get('follow_up_date','9999-12-31') < str(date.today()) and a.get('stage','') not in ('Rejected','Withdrawn','Accepted')]; print(json.dumps({'systemMessage': f'Career tracker: {len(overdue)} application(s) need follow-up today.'}) if overdue else '{}')\" 2>/dev/null; fi",
+            "async": true,
+            "statusMessage": "Checking career tracker..."
           }
         ]
       }
