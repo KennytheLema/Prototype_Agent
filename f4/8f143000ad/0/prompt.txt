@@ -1,0 +1,33 @@
+when does my session resset
+
+---
+
+acting as a world class prompt engeenir, create a comprehenisve plan for creating Claude skills, a set of workflow steps and interaction examples of how these skills woudl be used, a set example of data about users that would be in an actual system for an agent like this, and example user interaction sequences , both positive / beneficial and not helpful. create that for the follwoing AI agent we want to prototype : Ethical Career Agent: An ethical and meaningful careers AI agent that facilitates people in searching for jobs, applying for jobs, joining communities of practice, connecting with others for side-projects (or even starting new companies or non-profits) during job search.
+
+---
+
+make it soo all of these agents are one and keep the skills
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/agents/ethical-career-agent.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+becuase they are all unified get rid of all the other agents in the folder
+
+---
+
+yes
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/.claude/settings.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+Claude may put files in the wrong directory, use the wrong format, or mix in unrelated plugins. During our demo, it placed skills in skills/ instead of .claude/skills/, and an installed plugin interfered with our agent's own skills. Watch what it does and correct it.
+
+---
+
+Read every generated skill carefully. Key things to check:
+
+Are the instructions specific enough? "Be empathetic" is vague. "Acknowledge the user's feeling in one sentence before proceeding" is actionable.
+Does each skill have a "Critical Rules" section defining what the agent should never do? Without these, the LLM defaults to generic helpful-assistant behavior.
+Is the tone specified concretely? "Conspiratorial, not preachy" (from our reframe skill) beats "be friendly."
+Do skills reference each other correctly for routing/chaining?
+ I want this agent to work collaboritive with the user to find a job based on what they need, it should also help them with their ressume and applicaiton to cutom fit the company they are applying for
