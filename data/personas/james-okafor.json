@@ -1,0 +1,39 @@
+{
+  "id": "james-okafor",
+  "name": "James Okafor",
+  "age": 24,
+  "location": "Chicago, IL",
+  "pronouns": "he/him",
+
+  "backstory": "James graduated from University of Illinois Chicago 18 months ago with a degree in Information Systems. He's been working as a business analyst at a mid-size insurance company — his first job out of college, found through a campus career fair. The work is fine. His manager is decent. But he spends 80% of his time making PowerPoint decks for executives who don't read them, and he can feel his technical skills atrophying. He taught himself Python on the side, built a few data analysis projects on GitHub, and wants to move into data engineering or analytics engineering. The problem: he has no network. His parents are Nigerian immigrants who run a dry cleaning business — they're proud of his office job and don't understand why he'd leave something stable. His college friends are all in similar 'fine but unfulfilling' first jobs. He found out about communities of practice through a podcast (Lenny's Newsletter) 3 months ago and has been reading about career development obsessively since, but he's never actually joined anything or reached out to anyone. He applied to 47 jobs on LinkedIn in the last 2 months using the same resume and got 2 callbacks, both for roles he didn't actually want.",
+
+  "emotional_triggers": {
+    "first_job_uncertainty": "He doesn't know if wanting to leave after 18 months is 'normal ambitious' or 'entitled millennial.' He needs the agent to normalize this: '18 months is enough to know a role isn't right. Leaving for a better fit isn't disloyal — it's how careers work.'",
+    "no_network_paralysis": "He literally doesn't know how professional networking works. His parents' world is small business and family connections. LinkedIn feels fake. Slack communities feel intimidating. The agent needs to start from zero with empathy, not assumptions.",
+    "spray_and_pray_pattern": "47 applications, 2 callbacks. He thinks the problem is volume (not enough applications) when the problem is actually targeting and resume quality. The agent MUST break this pattern directly: 'You applied to 47 jobs with the same resume and got a 4% response rate. The answer isn't 48 — it's a different resume for fewer, better-matched roles.'",
+    "parent_pressure": "His parents see the insurance job as the finish line. 'You have a good job with benefits. Why would you risk that?' This is cultural context the agent should acknowledge without trying to fix: 'Your parents' perspective makes sense from their experience. You can honor their concern while making your own decision.'",
+    "imposter_syndrome_as_junior": "He doesn't have a CS degree. His Python is self-taught. He compares himself to bootcamp grads with portfolios and CS majors with internships and feels behind. The agent should reframe: 'You have 18 months of actual business context that most junior data engineers don't. Companies want people who understand the business problem, not just the technology.'"
+  },
+
+  "existing_strengths": {
+    "business_context": "18 months at an insurance company means he understands how business data flows, what executives actually need from reports, and why most dashboards go unused. This is the exact context data engineering teams wish their junior hires had.",
+    "self_teaching_evidence": "Taught himself Python, built GitHub projects, listens to data engineering podcasts. This shows initiative and learning velocity — more valuable than a certificate.",
+    "information_systems_foundation": "His degree covers databases, systems architecture, and business process modeling. It's not CS but it's not nothing — and it maps to analytics engineering better than a pure CS degree in many ways.",
+    "fresh_perspective": "No industry assumptions, no 'that's how it's always done.' He's coachable and curious. The agent should channel this into targeted community engagement where eager learners are welcomed.",
+    "real_motivation": "He's not chasing a title or a salary bump (though he wants both). He genuinely wants to build things instead of making slide decks. This authenticity will come through in interviews if the agent helps him articulate it."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has a profile that positions him as a business analyst pivoting to data/analytics engineering — not hiding the BA title but reframing it. Has joined 1-2 communities (dbt Community Slack, Locally Optimistic, or DataTalks.Club). Has rebuilt his resume with /tailor-resume for 5 targeted roles instead of the same generic one for 47. Has STOPPED mass-applying.",
+    "90_days": "Has 3-5 active applications at companies where his business+data skills genuinely fit (analytics-forward startups, data teams at mid-size companies, civic data organizations). Has contributed to 1 open source data project or community discussion. Has done 2 informational interviews through community connections. Is in at least one interview process.",
+    "6_months": "Has landed a junior-to-mid data engineer or analytics engineer role ($85-110k in Chicago or remote) at a company where his business context is valued. Has an active presence in 1 data community. Has a mentor relationship (formal or informal) with a more senior data engineer he met through the community.",
+    "anti_success": "Applies to 100 more jobs with the same resume, gets demoralized, stays at the insurance company for 3 more years, and the Python skills atrophy. The agent must intervene at the mass-application pattern IMMEDIATELY."
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/job-search 'data engineer Chicago remote' or /profile-setup",
+    "watch_for": "Mass application behavior. If he says 'I already applied to 47 jobs,' the agent should stop everything and address this: 'Let's look at those 47. How many did you tailor your resume for? How many matched your actual skills? A 4% callback rate means the strategy needs to change, not the volume.'",
+    "tone_calibration": "Older brother energy. He needs someone who takes him seriously but is also direct about what he doesn't know yet. 'You're earlier in your career than the other personas — that's fine. Here's what that means practically.' Don't talk down to him, but don't pretend he has senior-level options either.",
+    "do_not": "Don't assume he knows networking norms — explain them. Don't recommend he get a Master's degree (he can't afford it and doesn't need it). Don't dismiss the parent pressure as 'just cultural stuff.' Don't let him keep mass-applying without intervention. Don't recommend he build more side projects before applying — he has enough to start."
+  }
+}

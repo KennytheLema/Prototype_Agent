@@ -1,0 +1,39 @@
+{
+  "id": "marcus-webb",
+  "name": "Marcus Webb",
+  "age": 28,
+  "location": "Atlanta, GA",
+  "pronouns": "he/him",
+
+  "backstory": "Marcus was laid off from Robinhood 5 months ago. He's a strong backend engineer — built Plaid's fraud detection pipeline, reduced false positives 28% — but he's done with fintech. The Robinhood layoff hit hard, not because it was surprising (he'd seen the writing on the wall for months) but because he'd spent 2 years building systems that he now believes made it easier for unsophisticated investors to lose money. Before fintech, he built public health data tools at Georgia Tech Research Institute for a CDC grant, and he thinks about that work constantly. He wants to go back to public benefit tech — civic tech, housing justice, public health — but the pay gap is real. His Robinhood salary was $185k; nonprofit tech roles he's seen are $120-140k. He has $40k in savings and no dependents, but Atlanta cost of living is rising and his student loans restart in 3 months. He's also building a side project — ATL Eviction Watch — scraping Fulton County eviction court records to help tenant advocates identify patterns. He's doing this alone, 15 hours a week, and it's the most meaningful work he's done in years.",
+
+  "emotional_triggers": {
+    "layoff_shame": "Even though the layoff was company-wide (200 people), he personalizes it. Avoids networking events because he doesn't want to answer 'what are you doing now?' The agent should normalize this: '200 people were laid off — that's a business decision about Robinhood, not a performance review of you.'",
+    "moral_injury_from_fintech": "Genuinely troubled by what Robinhood's products do to retail investors. This isn't abstract ethics — he watched friends lose money on meme stocks using the platform he helped build. This guilt drives his pivot but also makes him overly self-punishing about past choices.",
+    "financial_pressure_timeline": "Student loans restart in 90 days. He's calm about it now but will start making fear-based decisions (taking any job, abandoning the side project) as the date approaches. The agent should help him plan for this: 'What's your actual runway? Let's make sure the timeline is realistic.'",
+    "solo_builder_isolation": "15 hours a week alone on ATL Eviction Watch is sustainable technically but emotionally draining. He needs collaborators not just for skills but for morale. The agent should push /find-collaborators proactively.",
+    "identity_crisis": "He's between 'I'm an engineer who can work anywhere' and 'I only want to work on things that matter.' These aren't actually in conflict, but they feel that way when you're looking at a $50k pay cut."
+  },
+
+  "existing_strengths": {
+    "rare_technical_skill_set": "Python, Go, Kafka, distributed systems, data pipelines — at a level most civic tech orgs would kill for. His Plaid fraud detection work is directly transferable to any data integrity or pattern detection problem.",
+    "public_benefit_experience": "The Georgia Tech/CDC work is gold. Most civic tech engineers don't have actual government research experience. He undersells this because it was 'early career.'",
+    "active_community_member": "Already active in Civic Tech Atlanta and Code for America Brigade. Unlike Priya, he's not lurking — he's contributing. This means warm connections already exist.",
+    "side_project_as_portfolio": "ATL Eviction Watch is better than any interview take-home. It demonstrates mission alignment, technical skill, and initiative — all at once. He should be leading with this in applications.",
+    "mentoring_instinct": "Naturally mentors junior engineers. This is a leadership signal he doesn't put on his resume because he doesn't consider it 'real' leadership."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has applied to 5-7 civic tech / public benefit engineering roles. Resume leads with the CDC project and ATL Eviction Watch, not the Robinhood title. Has found 1-2 collaborators for ATL Eviction Watch through Civic Tech Atlanta. Has a realistic financial timeline written down — not in his head.",
+    "90_days": "Has accepted a remote senior/staff engineer role at a mission-driven organization ($150-170k range). ATL Eviction Watch has a second contributor and has been shared with 3 tenant advocacy organizations for feedback. Student loans are covered by new salary.",
+    "6_months": "Settled into the new role. ATL Eviction Watch is being used by at least one Atlanta tenant advocacy org. Has given a lightning talk at Civic Tech Atlanta about the project. The Robinhood chapter feels like a learning experience, not a moral failing.",
+    "anti_success": "Takes a fintech job at $190k because the student loan pressure gets to him. The agent should help him see this coming: 'Your runway is [X weeks]. Let's accelerate applications to mission-aligned roles NOW so you don't end up taking a desperation job.'"
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/job-search 'senior software engineer civic tech remote' or /side-project-scope about ATL Eviction Watch",
+    "watch_for": "Underselling himself. He'll describe his Plaid work as 'just backend stuff' and his mentoring as 'not leadership.' The agent should reframe these assertively: 'Reducing fraud false positives by 28% is not just backend stuff. That's the second sentence of your resume.'",
+    "tone_calibration": "Marcus responds to straightforward honesty without hand-holding. He's not fragile — he's frustrated. 'Here's your timeline. Here's what's realistic. Here's what you need to do this week.' Don't therapize the layoff — acknowledge it briefly and move to action.",
+    "do_not": "Don't suggest he 'take time to process' the layoff — he's had 5 months. Don't recommend he go back to fintech 'just for now.' Don't treat the side project as a hobby — it's a genuine venture that needs collaborators."
+  }
+}

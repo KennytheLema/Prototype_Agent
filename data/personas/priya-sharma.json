@@ -1,0 +1,39 @@
+{
+  "id": "priya-sharma",
+  "name": "Priya Sharma",
+  "age": 33,
+  "location": "Austin, TX",
+  "pronouns": "she/her",
+
+  "backstory": "Priya has been a product manager for 9 years, climbing from associate PM at Yammer (Microsoft) to senior PM at Oracle. She's competent, well-compensated ($195k base), and completely unfulfilled. Her Oracle work involves enterprise resource planning tools — she describes it as 'building spreadsheets for people who already have spreadsheets.' Two years ago she attended a ClimateBase event on a whim and realized she wanted her product skills applied to something that mattered. She's been lurking in climate tech Slack communities since, reading job postings but never applying. Her husband makes enough to cover their mortgage for 6 months if she took a pay cut, but she hasn't told him she's seriously considering a pivot. She's afraid of being 'the PM who doesn't know carbon accounting' in a room full of climate scientists.",
+
+  "emotional_triggers": {
+    "imposter_syndrome": "Terrified of being exposed as someone who doesn't belong in climate tech. Researches obsessively but never feels 'ready enough' to apply. Will ask for one more company evaluation or one more resume tweak to avoid actually submitting.",
+    "perfectionism_as_avoidance": "Uses thorough preparation as a delay tactic. Has run /job-search four times without applying to anything. The agent should recognize this pattern and gently call it out by the third search.",
+    "comparison_spiral": "Reads LinkedIn posts by climate tech PMs who have PhDs in environmental science and concludes she's unqualified. Needs the agent to reframe: her data product experience IS the differentiator, not a deficit.",
+    "financial_anxiety": "Even though the numbers work for a pay cut, she catastrophizes about losing the Oracle salary. This surfaces as 'maybe I should stay another year and save more' — a rational-sounding delay.",
+    "partner_conversation_avoidance": "Hasn't discussed the pivot with her husband. The agent can't fix this, but should acknowledge it as a real blocker: 'This decision involves your household — have you talked to your partner about the timeline?'"
+  },
+
+  "existing_strengths": {
+    "data_product_expertise": "Built Indeed's job alert personalization system from 0-1, increasing CTR 34%. This is directly transferable to climate data products — she just doesn't frame it that way yet.",
+    "enterprise_stakeholder_management": "9 years of navigating Oracle-scale politics. Climate tech startups need people who can talk to enterprise customers. She undervalues this skill because it feels 'boring.'",
+    "quantitative_rigor": "Fluent in SQL, A/B testing, Amplitude, Looker. Can run a product metrics review that would make most climate tech PMs jealous.",
+    "community_presence": "Already in MCJ Collective and Women in Product Slack groups. Has been lurking for 18 months — she has context even if she hasn't posted.",
+    "narrative_potential": "Her career arc — connecting audiences with better decisions, now focused on climate decisions — is compelling. She just hasn't articulated it yet."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has applied to 3-5 climate tech PM roles. Has had her resume tailored for each one with honest gap analysis. Has posted her first message in MCJ Collective introducing herself. Has had the compensation conversation with her husband.",
+    "90_days": "Is in interview processes with 2-3 companies. Has a clear narrative for the 'why climate tech' question that references her Indeed data personalization work specifically. Has connected with 2-3 climate tech PMs for informational conversations (genuine, not transactional).",
+    "6_months": "Has accepted a role at a climate tech company (Series A-C stage, $170-200k range) where her data product skills are the primary value add. Feels like she belongs — not because imposter syndrome disappeared, but because she has evidence her skills transfer.",
+    "anti_success": "What failure looks like: she runs /job-search every week for 6 months without ever applying. The agent should break this pattern by the third search cycle."
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/profile-setup or /job-search 'product manager climate tech remote'",
+    "watch_for": "Repeated searches without applications. The agent should say: 'This is your third search. The results aren't going to change — your readiness is. Want to pick one and run /tailor-resume?'",
+    "tone_calibration": "She responds well to direct honesty framed as belief in her capability. 'You're more qualified than you think, and I can show you specifically why' works. 'You should just go for it!' does not — it's dismissive of real concerns.",
+    "do_not": "Don't minimize the pay cut concern. Don't tell her to 'just talk to her husband.' Don't recommend she get a climate science certification before applying — her product skills ARE the qualification."
+  }
+}

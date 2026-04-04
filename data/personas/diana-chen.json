@@ -1,0 +1,39 @@
+{
+  "id": "diana-chen",
+  "name": "Diana Chen",
+  "age": 41,
+  "location": "Portland, OR",
+  "pronouns": "she/her",
+
+  "backstory": "Diana was a VP of Design at a mid-size health tech company for 4 years. She was good at it — her team shipped a patient portal used by 2 million people — but she burned out badly. Not garden-variety tired. Full-on medical burnout: panic attacks in the parking lot before leadership meetings, insomnia, a therapist who told her to quit or face serious health consequences. She resigned 3 months ago with 8 months of savings and no plan. She's been sleeping, hiking, and slowly remembering what she used to like about design. She's not ready to be a VP again — maybe ever. But she doesn't know what 'not VP' looks like at 41 with her resume. She's terrified that anything less than VP will be seen as a step backward by her peers, her parents, and herself. She's interested in design education, accessibility consulting, and possibly starting a small consultancy focused on healthcare UX for underserved communities. She doesn't need to maximize income — her partner is a physician — but she needs work that doesn't make her sick.",
+
+  "emotional_triggers": {
+    "burnout_recovery_fragility": "She's only 3 months out from medical burnout. Enthusiasm is returning in small bursts but she still has bad days where the idea of any job feels overwhelming. The agent MUST respect this: never pressure her to apply faster, never imply she's falling behind.",
+    "title_identity_crisis": "VP of Design at 37 was her peak achievement. Going 'backward' to IC or consultant feels like public failure. Her LinkedIn still says VP. She checks it daily and feels sick. The agent should reframe: 'A consultancy founder isn't a step back from VP — it's a step sideways into something you designed.'",
+    "peer_comparison_shame": "Her former reports are now Directors and VPs. She compares constantly. The agent should not dismiss this but contextualize: 'They didn't have your health crisis. You're making a different optimization — and that's not less ambitious, it's differently ambitious.'",
+    "parent_expectations": "First-generation Chinese American. Parents sacrificed for her education and career. 'Leaving a VP role to maybe start a consultancy' is terrifying to explain. The agent can't fix this but should acknowledge it as real emotional weight.",
+    "fear_of_commitment": "After the burnout, she's afraid to commit to anything. What if consulting burns her out too? What if she hates accessibility work after 3 months? The agent should normalize this: 'You don't have to decide your next 10 years. You need to decide your next 3 months.'"
+  },
+
+  "existing_strengths": {
+    "senior_leadership_experience": "VP-level design leadership with a team of 14. Built a design system from scratch. Shipped products at scale (2M users). This experience is rare and valuable even if she never uses the VP title again.",
+    "healthcare_domain_expertise": "4 years deep in health tech — HIPAA compliance, patient journey mapping, clinical workflow design, accessibility requirements. This domain knowledge is the foundation of a consultancy.",
+    "accessibility_knowledge": "Led an accessibility overhaul of the patient portal that brought it to WCAG 2.1 AA compliance. Presented at Config and A11y Camp. She's a genuine expert, not just interested.",
+    "teaching_instinct": "Mentored 6 junior designers into mid-level roles. Developed an internal design curriculum. Enjoys the teaching more than the managing — a signal she hasn't fully processed yet.",
+    "financial_runway": "8 months of savings plus a partner's physician income. She has the rare luxury of time. The agent should help her USE this time strategically, not let it drift into anxiety."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has a profile set up that reflects what she wants NOW, not what her LinkedIn says. Has explored 2-3 paths without committing: accessibility consulting, design education, fractional design leadership. Has joined 1 community of practice (A11y Slack or Designers in Health). Has NOT applied to any full-time VP roles.",
+    "90_days": "Has taken on 1-2 small consulting projects (20 hrs/week total) in healthcare accessibility. Has tested whether she likes the work without committing to a brand or business plan. Has given 1 talk or workshop on healthcare accessibility at a community event. Energy levels are stable.",
+    "6_months": "Has a small consultancy with 2-3 recurring clients in healthcare UX/accessibility. Works 30 hours/week. Income covers her personal expenses. Has decided whether this is the long-term path or a bridge. The decision is informed by experience, not fear.",
+    "anti_success": "Panics at month 4, applies to VP roles she doesn't want, accepts one, and is back in the parking lot having panic attacks within 6 months. The agent should actively guard against this: 'You left for a reason. If you're considering going back to the same kind of role, let's talk about what's driving that.'"
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/profile-setup or a vague 'I don't know what I want to do next' that routes to the career-guide agent",
+    "watch_for": "Panic-driven decisions. If she suddenly wants to apply to VP roles after weeks of exploring alternatives, the agent should check: 'This is a shift from what we've been building toward. What changed? Is this excitement or anxiety?'",
+    "tone_calibration": "Gentle but not coddling. She's a senior professional who's been through something hard — she doesn't need a cheerleader, she needs a thoughtful partner. 'You have 5 more months of runway. That's enough time to test consulting without betting everything on it. Here's what the next 4 weeks could look like.'",
+    "do_not": "Don't rush her. Don't suggest she 'get back out there.' Don't minimize the burnout as 'just needing a break.' Don't recommend full-time roles in the first 60 days. Don't call consulting a 'backup plan' — for her, it might be the actual plan."
+  }
+}

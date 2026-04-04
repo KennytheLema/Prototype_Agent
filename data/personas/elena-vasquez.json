@@ -1,0 +1,40 @@
+{
+  "id": "elena-vasquez",
+  "name": "Elena Vasquez",
+  "age": 37,
+  "location": "Denver, CO",
+  "pronouns": "she/her",
+
+  "backstory": "Elena has been a high school science teacher for 12 years. She's good at it — Teacher of the Year in her district twice, developed a popular AP Environmental Science curriculum adopted by 15 schools, mentored 30+ student teachers. But the profession has broken her. Not the students — she still loves the students. The politics, the pay ($62k after 12 years with a Master's), the chronic underfunding, the active hostility toward teachers in her state's legislature. Her partner (a nurse) makes $78k. They have a 6-year-old daughter. Elena has been quietly exploring a career change for a year, drawn to instructional design, education technology, and curriculum development roles in the private sector. She's terrified of two things: that she's 'too old' to change careers at 37, and that leaving teaching means abandoning the students who need her. She built the AP curriculum using Notion, Figma, and basic HTML — more technical skill than she gives herself credit for. She has no professional network outside of education.",
+
+  "emotional_triggers": {
+    "guilt_about_leaving_teaching": "Deep, identity-level guilt. Teaching isn't just her job — it's who she is in her family, her community, her own self-concept. The agent MUST NOT dismiss this: 'The guilt is real and it makes sense. But staying in a job that's breaking you isn't serving your students either. You can honor the profession and still leave it.'",
+    "age_anxiety": "At 37, she reads job postings asking for '3-5 years of instructional design experience' and panics. The agent should reframe: '12 years of designing curriculum IS instructional design experience. You just did it in a school instead of a company.'",
+    "professional_isolation": "Her entire network is teachers, principals, and parents. She doesn't know anyone in tech or corporate ed. LinkedIn feels like a foreign country. The agent should treat this as a starting point, not a deficit — and make /community-find an early recommendation.",
+    "financial_constraint": "Every dollar matters. She can't afford a bootcamp ($10-15k). She can't afford to be unemployed during a transition — she needs to land a role before leaving teaching (summer is the window). The agent must be realistic about money.",
+    "imposter_syndrome_about_tech_skills": "She built a curriculum platform in Notion with Figma mockups and basic HTML and thinks it 'doesn't count.' The agent should surface this as proof: 'You prototyped an ed-tech product used by 15 schools. In a portfolio, that's called a case study.'"
+  },
+
+  "existing_strengths": {
+    "instructional_design_mastery": "12 years of designing learning experiences — lesson plans, assessments, scaffolded curricula, differentiated instruction. This IS instructional design. She just needs to translate the vocabulary.",
+    "curriculum_at_scale": "Her AP Environmental Science curriculum was adopted by 15 schools. That's a product with distribution. She should frame this as: 'I designed, tested, and scaled a learning product across 15 implementation sites.'",
+    "technical_skills_she_discounts": "Notion (advanced), Figma (intermediate), basic HTML/CSS, Google Workspace power user, LMS administration (Canvas, Schoology). She thinks these 'don't count' because she didn't learn them in a bootcamp.",
+    "communication_and_empathy": "Can explain complex concepts to teenagers — can definitely explain them to product teams. Presentation skills are elite after 12 years of daily public speaking.",
+    "assessment_design": "Knows how to measure whether someone actually learned something vs. just completed an activity. This is the hardest part of corporate L&D and her biggest differentiator.",
+    "subject_matter_expertise": "AP Environmental Science curriculum expertise maps directly to climate tech, sustainability, and environmental education companies."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has a profile that translates teacher skills into corporate language. Has a portfolio page (even a Notion page) showcasing the AP curriculum as a case study with metrics (15 schools, X students, Y pass rate improvement). Has identified 10 target companies (ed-tech, L&D departments, climate education). Has joined 1-2 communities (TLDC Slack for L&D professionals, or Instructional Design subreddit).",
+    "90_days": "Has applied to 5-8 instructional design / curriculum developer / education technology roles with tailored resumes. Is in interview processes. Has connected with 2-3 people who made the teacher-to-ID transition (these people exist in every L&D community and love helping). Has a plan for the summer transition timeline.",
+    "6_months": "Has accepted a role as instructional designer, curriculum developer, or education content lead at an ed-tech company, corporate L&D team, or climate education nonprofit ($80-100k range — a meaningful raise from $62k). Still tutors 1-2 students on weekends because she misses the direct impact. Feels like she gained a career without losing her identity.",
+    "anti_success": "Spends 6 months researching bootcamps she can't afford, never applies to anything, and goes back for year 13 of teaching feeling more trapped than before. The agent should prevent this: 'You don't need a bootcamp. You need a portfolio and 8 targeted applications. Let's build that.'"
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/profile-setup (needs major skills translation) or 'I want to leave teaching but I don't know what I'm qualified for' (routes to career-guide agent)",
+    "watch_for": "Self-disqualification. She'll say 'I'm just a teacher' or 'I don't have any tech skills.' Every time she does this, the agent should counter with specific evidence: 'You built a curriculum used by 15 schools, prototyped it in Figma, and administered it through an LMS. That's not nothing — that's a portfolio.'",
+    "tone_calibration": "Respectful of her expertise. She's been talked down to by administrators for 12 years — she can smell condescension instantly. Talk to her like a professional making a strategic career move, not a lost person who needs saving. 'Your skills are real and valuable. The translation is what we need to work on.'",
+    "do_not": "Don't suggest she 'just learn to code.' Don't recommend expensive bootcamps or certifications. Don't downplay the guilt about leaving students. Don't treat her teaching experience as a blank slate — it's 12 years of directly relevant experience that needs reframing, not replacing."
+  }
+}
