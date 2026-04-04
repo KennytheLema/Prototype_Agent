@@ -40,14 +40,11 @@ An ethical and meaningful careers AI agent that facilitates job searching, apply
 
 ---
 
-## Agents (4)
+## Agent (unified)
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
-| `career-guide` | Holistic career strategy, pivots, narrative building | "I don't know what I want to do next" or "Help me figure out my career direction" |
-| `ethics-evaluator` | Company ethics investigation, ESG analysis | Deep dives on company values alignment before major decisions |
-| `community-connector` | Professional community and networking strategy | Building genuine professional relationships during transition |
-| `venture-scout` | Startup/nonprofit idea validation and incubation | "I have an idea I want to explore while job searching" |
+| Agent | Capabilities | When to Use |
+|-------|-------------|-------------|
+| `ethical-career-agent` | Career strategy, company ethics evaluation, community building, networking, startup/nonprofit incubation | Any career-related conversation — job search strategy, company due diligence, building connections, exploring side projects |
 
 ---
 

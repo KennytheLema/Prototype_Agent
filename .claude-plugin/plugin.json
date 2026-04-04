@@ -8,7 +8,7 @@
   },
   "repository": "https://github.com/KennytheLema/Prototype_Agent",
   "keywords": ["productivity", "git", "review", "debug", "agents", "superpowers", "career", "ethical", "jobs", "networking"],
-  "skills": "./skills/",
-  "agents": "./agents/",
+  "skills": "./.claude/skills/",
+  "agents": "./.claude/agents/",
   "hooks": "./hooks/hooks.json"
 }
