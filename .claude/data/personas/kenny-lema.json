@@ -1,0 +1,40 @@
+{
+  "id": "kenny-lema",
+  "name": "Kenny Lema",
+  "age": 21,
+  "location": "Orono, ME",
+  "pronouns": "he/him",
+
+  "backstory": "Kenny is a 21-year-old undergrad at the University of Maine, heading into his final stretch before graduation. For all 3 years of college he's worked at the Innovative Media Research and Commercialization Center (IMRC) as an engineering assistant — a role that's made him unusually versatile. On any given day he might be helping a grad student troubleshoot a 3D print, training someone on the laser cutter, or assisting with woodworking tools. The variety is the point: he hates doing the same thing twice. His proudest accomplishment at the IMRC was building security software that protects user data when students log into the center's desktops — real software solving a real problem, not a class assignment. He knows Java, Python, and C++, and has recently been diving into AI agents and how they operate. He's looking for a software engineering role after graduation, but not just any role. He wants a company whose products he actually uses and believes in — Garmin is his dream example. He's an outdoors person, their navigation products have helped him in the field more than once, and he wants to bring both his user perspective and his engineering skills to a company like that. The job market terrifies him — not because he doubts his ability to learn, but because he watches AI advancing and wonders how many of the roles he's training for will still exist. He doesn't need to be rich. He needs work that's varied, meaningful, and stable enough to make his family proud.",
+
+  "emotional_triggers": {
+    "ai_displacement_fear": "Genuinely afraid that AI will eat the jobs he's preparing for. This isn't abstract doom-scrolling — he's actively learning AI agents partly to stay ahead of it. The agent should acknowledge this as rational without feeding the anxiety: 'Understanding how AI agents work puts you ahead of 90% of new grads. Companies need people who can work WITH these tools, not just people the tools replace.'",
+    "repetition_dread": "Nothing kills his motivation faster than monotonous, no-input work. He's experienced it and knows it makes him miserable. When evaluating roles, the agent must probe for variety and autonomy — a high-paying role with repetitive tasks is a bad fit for Kenny specifically.",
+    "overthinking_and_overcomplicating": "When stuck, his instinct is to make the problem bigger and more complex than it is. He knows this about himself. The agent should watch for it and call it out directly: 'You're making this harder than it needs to be. What's the simplest version of this?'",
+    "competitive_comparison": "Notices when peers seem more skilled, but — unlike classic imposter syndrome — he channels it into motivation rather than paralysis. The agent should lean into this: 'That instinct to level up when you see someone ahead of you is rare. Most people just feel bad about it. You actually do something.'",
+    "family_pride": "No external pressure from family, but internal pressure to deliver a stable career they can be proud of. This is self-imposed and quiet — the agent shouldn't dramatize it, but should understand that 'stable job that matters' is a real success metric for him, not just 'highest salary.'"
+  },
+
+  "existing_strengths": {
+    "creative_problem_decomposition": "His strongest skill and he knows it. Can break complex problems into manageable tasks — this is a project management and systems thinking ability that most 21-year-olds don't have. Directly transferable to software engineering, sprint planning, and technical leadership.",
+    "versatility_and_adaptability": "3 years at the IMRC working across woodworking, laser cutting, 3D printing, and software means he's comfortable learning new tools fast and context-switching. This is exactly what early-career engineers at product companies need to do.",
+    "communication_clarity": "Knows how to articulate what he needs to succeed and what he wants from a team. This makes him effective in group work and will make him effective in cross-functional engineering teams. He undervalues this — it's actually one of his biggest differentiators.",
+    "real_security_software": "Built production security software protecting user data at the IMRC. This isn't a class project — it's deployed software with real users. Should be a centerpiece of his resume and portfolio.",
+    "user_empathy_as_engineer": "Wants to work at Garmin specifically because he uses and depends on their products. An engineer who is also a genuine power user of the product they're building is more valuable than one who's just technically skilled. Companies like Garmin, Patagonia, REI, and similar mission-driven outdoor brands actively look for this.",
+    "ai_agent_knowledge": "Currently building hands-on experience with AI agents — understanding how they work, how to build them, how they operate. This is a cutting-edge skill that most new grads and even many mid-career engineers don't have yet."
+  },
+
+  "what_success_looks_like": {
+    "30_days": "Has a profile that frames his IMRC experience as versatile engineering — not 'campus job.' Resume leads with the security software project and his AI agent work. Has identified 8-10 target companies where his outdoors-user + engineer combination is a genuine advantage (Garmin, Strava, onX Maps, Coros, Trail of Bits, etc.). Has a portfolio page or GitHub showcase of the IMRC security project and AI agent experiments.",
+    "90_days": "Has applied to 5-8 targeted roles with tailored resumes. Is in interview processes at companies where variety and product input are part of the engineering culture. Has connected with 2-3 engineers at target companies through genuine outreach. Has a clear narrative: 'I build software that solves real problems for real users — and I want to do that at a company whose products I already trust with my safety outdoors.'",
+    "6_months": "Has accepted a software engineering role ($70-90k range, or higher at a larger company) at a company where the work is varied, his input matters, and the product aligns with his values. Feels like the IMRC years and the AI agent work gave him an edge, not just a line on his resume. Family is proud. He's not bored.",
+    "anti_success": "Takes the first offer he gets out of graduation anxiety, ends up writing CRUD endpoints 8 hours a day at a company whose product he doesn't care about, and starts dreading Monday by month 3. The agent should help him be strategic rather than desperate: 'You have the IMRC role through graduation. You're not unemployed — you're employed and searching. That's a different timeline than panic-applying.'"
+  },
+
+  "agent_interaction_notes": {
+    "likely_first_command": "/profile-setup or /job-search 'software engineer outdoor tech remote'",
+    "watch_for": "Overcomplicating his own job search. If he starts building elaborate systems or frameworks instead of just applying, the agent should say: 'You're engineering the process instead of doing the process. Pick 3 companies and apply this week.' Also watch for underselling the IMRC security project — he'll call it 'just a thing I built at work' when it's actually deployed production software.",
+    "tone_calibration": "Casual and direct. Talk to him like a peer, not a mentor or authority figure. He doesn't want to be coached from above — he wants a straight-talking collaborator. 'Here's what I'd do' lands better than 'You should consider.' Keep it conversational, not formal.",
+    "do_not": "Don't tell him how to think or feel about anything — he flagged this explicitly. Don't moralize about career choices. Don't dismiss the AI fear as irrational — engage with it practically. Don't recommend he get certifications or bootcamps — he's already in a CS program and building real things. Don't suggest he 'keep his options open' generically — he knows what he wants (varied work, meaningful product, stability). Help him get it."
+  }
+}
