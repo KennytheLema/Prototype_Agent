@@ -1,0 +1,55 @@
+when does my session resset
+
+---
+
+acting as a world class prompt engeenir, create a comprehenisve plan for creating Claude skills, a set of workflow steps and interaction examples of how these skills woudl be used, a set example of data about users that would be in an actual system for an agent like this, and example user interaction sequences , both positive / beneficial and not helpful. create that for the follwoing AI agent we want to prototype : Ethical Career Agent: An ethical and meaningful careers AI agent that facilitates people in searching for jobs, applying for jobs, joining communities of practice, connecting with others for side-projects (or even starting new companies or non-profits) during job search.
+
+---
+
+make it soo all of these agents are one and keep the skills
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/agents/ethical-career-agent.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+becuase they are all unified get rid of all the other agents in the folder
+
+---
+
+yes
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/.claude/settings.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+Claude may put files in the wrong directory, use the wrong format, or mix in unrelated plugins. During our demo, it placed skills in skills/ instead of .claude/skills/, and an installed plugin interfered with our agent's own skills. Watch what it does and correct it.
+
+---
+
+Read every generated skill carefully. Key things to check:
+
+Are the instructions specific enough? "Be empathetic" is vague. "Acknowledge the user's feeling in one sentence before proceeding" is actionable.
+Does each skill have a "Critical Rules" section defining what the agent should never do? Without these, the LLM defaults to generic helpful-assistant behavior.
+Is the tone specified concretely? "Conspiratorial, not preachy" (from our reframe skill) beats "be friendly."
+Do skills reference each other correctly for routing/chaining?
+ I want this agent to work collaboritive with the user to find a job based on what they need, it should also help them with their ressume and applicaiton to cutom fit the company they are applying for
+
+---
+
+Write/generate at least 4 JSON persona files in data/personas/ representing realistic, diverse users. Each persona should include: name, age, backstory, emotional triggers, existing strengths, and what success looks like.
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/data/personas/elena-vasquez.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+make it so those personas are inside .claude so it can use it as past data
+
+---
+
+also any important docs that need to be inside claude so that the agent works propely, mode them inside
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/hooks/hooks.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+okay i want to integrate myselft as a person for the data, ask me question in detail so I can be represented acuaratly insde the users
+
+---
+
+1. Kenny Lema 2. 21 3. Orono- Maine 4.He/him 5. I am an undergrad student at the Universisty of MAine, I work in campus at the Innovative Reaserch and Comercialization Center as an egeenir assistatn 6. Ive been in school for 3 years, onto wich Ive been part of the IMRC for all of them 7. Ive worked at teh IMRC and its has helped me aprach differnt problems in many ways as I have to assist undergrads and grad studetns with thier projects using differnt types of technologlies from woodworkign tools, to laser, to 3d printing. 8. I'm lookign for a job after college, preferably as a softwere engiineer that follows my views, such example can be garmin. I enjoy being outdoors and their products for navigatino have helped me in more than one occation. Becuae of this I want ot put my own persepective into their company as a user and developer. 9. I am the most proud of helping with the security system at the IMRC, I was able to create softwere that protects users data once loged into the IMRC's desktops 10. I dont like having to only do one type of work, I hate repetition and dont like it when all Im asked for a job is mondane tasks tht feel like I have no input or to make a change. 11. I fear that most of my jobs will be taken by AI 12. No one expects anythign form me, but I do want to make my family proud by having a stable job 13. Yes and No, I often times feel like my peers or poeple around me have more skills than I do, however this has often times heped to become more skillful at my skills. 14.I want to live a comfortbel life, not a rich life. 15. I tend to overthinkg a lot of scenerios, If i get stuck my issue often comes by me makign the task more complex than what it has to be 16.I think my creative thinkign and project managemtn are superb, I am able to decompose complex problems into bite size taks that can be aproached. 17. My abilities to communicate what I need or whant to succeed, it makes it easier for me to group in gorups 18. I know java, python, c+, and im currently workign my abilites to work with AI agents and how they work and opperate 19.often times for my input on problems or how to aprach them. 20. I feel more vibid and alive, I talk more and I am able to get all of my responsibilitesi out of the way. 21.I'm trying to avoid being isolated and having a low income job where all i do is repetitive 22.I like to be talked direclty and like it when conversations are more casual. 23. I dont want it to tell me how to thiink or how to feel about certain subjects 24. im not sure
