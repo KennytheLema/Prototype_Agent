@@ -32,3 +32,8 @@ The unhelpful examples are very helpful and will really help you improve your de
 
 <ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/data/interactions/actual-logs/11-simulated-bad-cover-letter-generic.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
 move all of these into the .claude
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/.claude/data/interactions/01-elena-job-search-actual.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+push all these interactino into the git hub repository
