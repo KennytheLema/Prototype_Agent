@@ -1,0 +1,34 @@
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/.claude/data/personas/kenny-lema.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+hey my name is elena and im a highschooler witht internship expecirece, and im lookign for a job help me find one
+
+---
+
+this is an experimetnt so I want to you to save all of this informatino in  experiments/.
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/.claude/projects/-Users-rei-Desktop-Prototype-Agent/memory/user_elena.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+okay lets keep goign with the experimetn
+
+---
+
+I was internign at Jackkson labs, A laboratory here in Maine. Im interested in animal biology and I wnat to conseve the enviorment.
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/experiments/user_elena.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+I wanto a summer job
+
+---
+
+<ide_opened_file>The user opened the file Untitled-1 in the IDE. This may or may not be related to the current task.</ide_opened_file>
+Step 10: Write example interactions — both good and bad. Store these in data/interactions/actual-logs.
+
+You should also generate some simulated interactions that don't actually use the skills. Have beneficial examples show what "good" looks like. Have unhelpful examples are equally important — they define the boundary of acceptable behavior. In our repo, the unhelpful examples (preachy lecturing, dismissive shaming, unsolicited advice) directly informed the "Critical Rules" in every skill.
+
+The unhelpful examples are very helpful and will really help you improve your design. Writing them forces you to articulate what your agent should NOT do.
+
+---
+
+<ide_opened_file>The user opened the file /Users/rei/Desktop/Prototype_Agent/data/interactions/actual-logs/11-simulated-bad-cover-letter-generic.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
+move all of these into the .claude

@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.5.2",
+  "checkpoint_id": "82969dab9a73",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 6,
+  "files_touched": [
+    ".claude/data/interactions/01-elena-job-search-actual.md",
+    ".claude/data/interactions/02-simulated-good-kenny-profile-setup.md",
+    ".claude/data/interactions/03-simulated-good-evaluate-company.md",
+    ".claude/data/interactions/04-simulated-good-connect-request-refusal.md",
+    ".claude/data/interactions/05-simulated-bad-preachy-lecturing.md",
+    ".claude/data/interactions/06-simulated-bad-dismissive-shaming.md",
+    ".claude/data/interactions/07-simulated-bad-unsolicited-advice.md",
+    ".claude/data/interactions/08-simulated-bad-fake-enthusiasm.md",
+    ".claude/data/interactions/09-simulated-bad-resume-fabrication.md",
+    ".claude/data/interactions/10-simulated-bad-link-dump.md",
+    ".claude/data/interactions/11-simulated-bad-cover-letter-generic.md",
+    ".claude/data/interactions/README.md",
+    "experiments/MEMORY.md",
+    "experiments/search_log.md",
+    "experiments/user_elena.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/82/969dab9a73/0/metadata.json",
+      "transcript": "/82/969dab9a73/0/full.jsonl",
+      "content_hash": "/82/969dab9a73/0/content_hash.txt",
+      "prompt": "/82/969dab9a73/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 61,
+    "cache_creation_tokens": 121483,
+    "cache_read_tokens": 1366964,
+    "output_tokens": 18826,
+    "api_call_count": 42
+  }
+}
