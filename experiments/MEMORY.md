@@ -1,0 +1,1 @@
+- [Elena - User Profile](user_elena.md) — high schooler with internship experience, job searching
